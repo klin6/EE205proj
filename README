@@ -1,0 +1,27 @@
+Group8, Section1
+Members: Grace Hayashi, Sharmaine Javier, Kylie Lin
+
+compile:  make RobotGame
+run:  ./RG
+
+Instructions to play the game:
+
+The robot is set to do one of three actions (at random):
+1) It will do nothing - this is to give the fighter a better chance at winning
+2) It will heal itself by the amount of healing power it has
+3) It will attack the fighter by the amount of the difference of attacking
+power and fighter's defense powers.
+
+The fighter can choose to do one of three actions each turn:
+1) It will attack the robot
+2) It will heal itself
+3) It will lower the defenses of the robot
+
+After the fighter has attacked the robot at least 5 times, it has the choice
+to lower the defenses of the robot. This is designed to last only 5 turns, and
+then the robot's defenses will go back to what they originally were.
+
+The user has the chance to quit the game at any point, by using Q+enter.
+
+The game ends when either the robot or the fighter have 0 health and either the
+"you win" or "you lose" screen will pop up.
